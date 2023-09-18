@@ -250,7 +250,7 @@ def create():
     f1.close()
 def search(y):
     f1 = open("file.csv", "r")
-    rob= csv.reader()
+    rob= csv.reader(f1)
     for i in rob:
         if i[0] ==y:
             print("password is ", i[1])
