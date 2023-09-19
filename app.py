@@ -435,4 +435,5 @@ def start():
     p2=a[1]
     program1(p1)
     program2(p2)
-    
+
+start()
